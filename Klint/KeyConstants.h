@@ -18,6 +18,15 @@ class Keys
         static std::map<int, KeyPair> KEYS;
 };
 
+
+/*
+*   The below map uses a key value, and a mapped value
+*   Here key value is a hexadecimal value of the actual keyboard key or keystroke
+*   and the mapped value is a KEYPAIR (declared above) :
+*       The first one of KEYPAIR is the system's name for the keyboard key
+*       The 2nd is a presentation name to easily recognize the keys
+*/
+
 std::map<int, KeyPair> Keys::KEYS =
 {
 
@@ -93,7 +102,7 @@ std::map<int, KeyPair> Keys::KEYS =
     {0xDC, {"[VK_OEM_5]", "[OEM_5 (| \\)]"}},
     {0xDD, {"[VK_OEM_6]", "[OEM_6 (} ])]"}},
     {0xDE, {"[VK_OEM_7]", "[OEM_7 (\" ')]"}},
-    {0xDF, {"[VK_OEM_8]", "[OEM_8 (§ !)]"}},
+    {0xDF, {"[VK_OEM_8]", "[OEM_8 (ï¿½ !)]"}},
     {0xF0, {"[VK_OEM_ATTN]", "[Oem Attn]"}},
     {0xF3, {"[VK_OEM_AUTO]", "[Auto]"}},
     {0xE1, {"[VK_OEM_AX]", "[Ax]"}},

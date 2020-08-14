@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1596718597 source:w:\projects\keylogger\klint\main.cpp
+	<iostream>
+	"windows.h"
+	"KeyConstants.h"
+	"KLint.h"
+	"Base64.h"
+	"IO.h"
+	"Timer.h"
+	"Sender.h"
+	"KeyHooks.h"
+
+1596632807 w:\projects\keylogger\klint\keyconstants.h
+	<map>
+	<string>
+
+1596632871 w:\projects\keylogger\klint\klint.h
+	<ctime>
+	<string>
+	<sstream>
+	<fstream>
+
+1597425445 w:\projects\keylogger\klint\base64.h
+	<vector>
+	<string>
+
+1596649673 source:w:\projects\keylogger\klint\icon.rc
+
+1596637824 w:\projects\keylogger\klint\io.h
+	<string>
+	<cstdlib>
+	"windows.h"
+	<fstream>
+	"KLint.h"
+	"Base64.h"
+
+1596633188 w:\projects\keylogger\klint\timer.h
+	<thread>
+	<chrono>
+	<functional>
+
+1596723463 w:\projects\keylogger\klint\sender.h
+	<fstream>
+	<vector>
+	"windows.h"
+	"IO.h"
+	"Timer.h"
+	"KLint.h"
+
+1596719956 w:\projects\keylogger\klint\keyhooks.h
+	<iostream>
+	<fstream>
+	"windows.h"
+	"KeyConstants.h"
+	"Timer.h"
+	"Sender.h"
+

