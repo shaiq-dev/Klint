@@ -1,6 +1,6 @@
 # KLint 
 **CPP KeyLogger**<br /><br />
-**KLint** captures keyboard key strokes using system hooks [**Based on Windows API**]. The keystrokes are written to a encrypted log file <br />
+**KLint** captures keyboard key strokes using system hooks [**Based on Windows API**]. The keystrokes are written to a encrypted log file 
 hidden under the windows filesystem tree and the log file is sent to the target via email after paticular time intervals as defined in **KeyHooks.h**<br />
 In current version **v0.01** only keystroke recording is supported but soon screenshots, audio recording and much more will be added. <br /><br />
 
