@@ -8,8 +8,9 @@ In current version **v0.01** only keystroke recording is supported but soon scre
 ANY MALICIOUS USE OF THE CONTENTS FROM THIS PROJECT WILL NOT HOLD THE AUTHOR RESPONSIBLE, THE CONTENTS ARE SOLELY FOR EDUCATIONAL PURPOSE
 
 <br >
-Table of Contents
-=================
+
+# Table of Contents
+
 
    * [Setup](#setup)
    * [Configuring The Keylogger](#configuration)
