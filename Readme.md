@@ -55,10 +55,10 @@ Default email configuration is set for **Gmail**. For email setup you need to co
 
 * **For Gmail Users**
 
-    * To send the emails successfully from the victim machine turn on "Allow  LESS SECURE APPS" from [here]("https://myaccount.google.com/lesssecureapps")<br />
+    * To send the emails successfully from the victim machine turn on "Allow  LESS SECURE APPS" from [here](https://myaccount.google.com/lesssecureapps)<br />
     * Alternatively to be on the safer side you can use "APP PASSWORDS"
-    from [here]("https://myaccount.google.com/apppasswords"), but to use this you need to enable 2 factor authentication
-    *   Learn more about app passwords on Google [support]("https://support.google.com/accounts/answer/185833?hl=en")<br />
+    from [here](https://myaccount.google.com/apppasswords), but to use this you need to enable 2 factor authentication
+    *   Learn more about app passwords on Google [support](https://support.google.com/accounts/answer/185833?hl=en)<br />
 
 *   **Other Mail Providers**
 
@@ -83,7 +83,7 @@ That default value is *30000* which represents _30_ seconds or _30000 millisecon
 
 ## Encryption
 
-The keylogger uses [BASE64]("https://en.wikipedia.org/wiki/Base64") encryption, as it is easy to decrypt so i have added some modification to the original algorithim. <br />
+The keylogger uses [BASE64](https://en.wikipedia.org/wiki/Base64) encryption, as it is easy to decrypt so i have added some modification to the original algorithim. <br />
 If you want to change the algorithim to fit your needs goto ___Base64.h___ located at _.\KLint\Klint\Base64.h_ and change the __SALTS__ and do the custom modifications to the following function on __Line 29__
 ```
  std::string encryptB64(std::string s) 
